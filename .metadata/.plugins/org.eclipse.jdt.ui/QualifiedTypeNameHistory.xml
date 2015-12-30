@@ -3,7 +3,10 @@
 <fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="org.codehaus.jettison.json.JSONObject"/>
+<fullyQualifiedTypeName name="util.ToJSON"/>
 <fullyQualifiedTypeName name="org.codehaus.jettison.json.JSONArray"/>
 <fullyQualifiedTypeName name="util.DAO"/>
-<fullyQualifiedTypeName name="org.codehaus.jettison.json.JSONObject"/>
+<fullyQualifiedTypeName name="com.mysql.fabric.xmlrpc.base.Data"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

@@ -47,7 +47,7 @@ public class DAO {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			connection = DriverManager.getConnection(url, user, pin);
-			query = connection.prepareStatement("select * from member where uname=?");
+			query = connection.prepareStatement("select * from member where uname='?'");
 			query.setString(1, u);
 			rs = query.executeQuery();
 			returnValue = ToJSON.toJSONArray(rs);

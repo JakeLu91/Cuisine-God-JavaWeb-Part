@@ -1,8 +1,6 @@
 package util;
 import java.sql.*;
 
-import org.codehaus.jettison.json.JSONArray;
-
 public class DAO {
 
 	private String pin = "910307";
@@ -40,25 +38,22 @@ public class DAO {
 		return 200;
 	}
 	
-	public JSONArray getMemberByUname(String u) {
+	public ResultSet queryInMember(String q) {
 		PreparedStatement query = null;
-		JSONArray returnValue = null;
+		
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			connection = DriverManager.getConnection(url, user, pin);
-			query = connection.prepareStatement("select * from member where uname=?");
-			query.setString(1, u);
+			query = connection.prepareStatement(q);
 			rs = query.executeQuery();
-			returnValue = ToJSON.toJSONArray(rs);
 			
 		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
-			closeConnection();
 		}
 		
-		return returnValue;
+		return rs;
 		
 	}
 	

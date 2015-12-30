@@ -40,15 +40,14 @@ public class DAO {
 		return 200;
 	}
 	
-	public JSONArray getMemberByUname(String u) {
+	public JSONArray queryInMember(String q) {
 		PreparedStatement query = null;
 		JSONArray returnValue = null;
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			connection = DriverManager.getConnection(url, user, pin);
-			query = connection.prepareStatement("select * from member where uname=?");
-			query.setString(1, u);
+			query = connection.prepareStatement(q);
 			rs = query.executeQuery();
 			returnValue = ToJSON.toJSONArray(rs);
 			

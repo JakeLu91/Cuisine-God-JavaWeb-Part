@@ -14,18 +14,18 @@ import util.DAO;
 public class Member_Operation {
 	
 	
-	@Path("/getMemberByUname")
+	@Path("/query")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response getMember(@QueryParam("uname") String uname) {
+	public Response queryMember(@QueryParam("query") String query) {
 		String returnString = null;
 		JSONArray json = new JSONArray();
 		DAO dao = new DAO();
-		if (uname == null) {
+		if (query == null) {
 			return Response.status(400).entity("Error: please specify query").build();
 		}
 		try {
-			json = dao.getMemberByUname(uname);
+			json = dao.queryInMember(query);
 			returnString = json.toString().replaceAll("\\\\", "");
 		} catch (Exception e) {
 			e.printStackTrace();

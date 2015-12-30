@@ -17,7 +17,7 @@ public class Member_Operation {
 	@Path("/getMemberByUname")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response getMember(@QueryParam("uname") String uname) {
+	public Response getMember(@QueryParam("query") String uname) {
 		String returnString = null;
 		JSONArray json = new JSONArray();
 		DAO dao = new DAO();
