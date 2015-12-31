@@ -21,4 +21,8 @@
     <pub>http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd</pub>
     <abs>http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd</abs>
     <rel>f5.xsd</rel>
+  </file>  <file>
+    <pub>http://maven.apache.org/xsd/maven-4.0.0.xsd</pub>
+    <abs>http://maven.apache.org/xsd/maven-4.0.0.xsd</abs>
+    <rel>f6.xsd</rel>
   </file></meta>
