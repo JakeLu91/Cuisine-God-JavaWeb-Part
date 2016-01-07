@@ -1,7 +1,0 @@
-package status;
-
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-public class Member_Operation {
-
-}
