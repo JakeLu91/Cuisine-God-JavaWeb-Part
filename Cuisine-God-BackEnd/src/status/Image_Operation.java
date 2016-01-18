@@ -19,6 +19,7 @@ import com.sun.jersey.multipart.FormDataMultiPart;
 import com.sun.jersey.multipart.FormDataParam;
 
 import util.DAO;
+import util.IDGenerator;
 
 @Path("/image")
 public class Image_Operation {
@@ -52,13 +53,32 @@ public class Image_Operation {
         	
         }
         
-        
         String filePath = upload_location + userPart.getValue() + "/" + headerOfFilePart.getFileName();
 		saveFile(fileInputStream, filePath);
 		
-		returnString = "File saved to server location : " + filePath;
+		returnString = "" + filePath;
+		
+		//insert a new row to image table here
+		DAO dao = new DAO();
+		String userID = null;
+		
+		try {
+			userID = ((JSONObject)dao.getMemberByUname(userPart.getValue()).get(0)).getString("id");
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		//length of imageID is 22
+		String id = IDGenerator.createAnID(22);
+		dao.insertIntoImage(id, filePath, userID);
+		
+		
 		return Response.ok(returnString).build();
 	}
+	
+	
+	
+
+	
 	
 	
 	//this mehtod copied from http://examples.javacodegeeks.com/enterprise-java/rest/jersey/jersey-file-upload-example/

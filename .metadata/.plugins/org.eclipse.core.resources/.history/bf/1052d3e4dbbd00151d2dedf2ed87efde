@@ -35,11 +35,11 @@ public class Image_Operation {
         InputStream fileInputStream = filePart.getValueAs(InputStream.class);
         
 		
-        FormDataBodyPart timeStampPart = form.getField("time");
-		FormDataBodyPart datePart = form.getField("date");
+        //FormDataBodyPart timeStampPart = form.getField("time");
+		//FormDataBodyPart datePart = form.getField("date");
 		FormDataBodyPart userPart = form.getField("userName");
         
-        
+        //create folder for the user if not exist
         File folder = new File(upload_location + userPart.getValue());
         if (!folder.exists()) {
         	System.out.println("Creating directory: " + userPart.getValue());
@@ -53,13 +53,10 @@ public class Image_Operation {
         }
         
         
-        String filePath = upload_location + userPart.getValue() + headerOfFilePart.getFileName();
+        String filePath = upload_location + userPart.getValue() + "/" + headerOfFilePart.getFileName();
 		saveFile(fileInputStream, filePath);
 		
-		returnString = "File saved to server location : " + filePath;
-		
-		
-		
+		returnString = "" + filePath;
 		return Response.ok(returnString).build();
 	}
 	

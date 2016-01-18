@@ -11,6 +11,38 @@ public class DAO {
 	private ResultSet rs;
 	private Connection connection;
 	
+	
+	
+	
+	public int insertIntoImage(String id, String path, String userID) {
+		PreparedStatement update = null;
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			connection = DriverManager.getConnection(url, user, pin);
+			update = connection.prepareStatement("insert into image(id, path, userID) values(?, ?, ?)");
+			update.setString(1, id);
+			update.setString(2, path);
+			update.setString(3, userID);
+			update.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			
+			e.printStackTrace();
+			return 500;
+		} finally {
+			if (connection != null) {
+				try {
+					connection.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		
+		
+		return 200;
+	}
+	
 	public int insertIntoMember(String id, String uname, String pass, int gender, String date) {
 		PreparedStatement update = null;
 		
