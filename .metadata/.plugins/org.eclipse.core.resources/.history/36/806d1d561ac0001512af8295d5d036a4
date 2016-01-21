@@ -11,55 +11,6 @@ public class DAO {
 	private ResultSet rs;
 	private Connection connection;
 	
-	
-	public int deleteFollowing(String id, String following) {
-		PreparedStatement update = null;
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection(url, user, pin);
-		
-			update = connection.prepareStatement("delete from friends where id=? and following=?");
-			update.setString(1, id);
-			update.setString(2, following);
-			
-			update.executeUpdate();
-		
-		
-		} catch (Exception e) {
-			e.printStackTrace();
-			return 500;
-		} finally {
-			if (connection != null) {
-				try {
-					connection.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-		return 200;
-	}
-	
-	public JSONArray getAFollowing(String id, String following) {
-		PreparedStatement query = null;
-		JSONArray returnValue = null;
-		
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection(url, user, pin);
-			query = connection.prepareStatement("select * from friends where id=? and following=?");
-			query.setString(1, id);
-			query.setString(2, following);
-			rs = query.executeQuery();
-			returnValue = ToJSON.toJSONArray(rs);
-		} catch (ClassNotFoundException | SQLException e) {
-			e.printStackTrace();
-		} finally {
-			closeConnection();
-		}
-		return returnValue;
-	}
-	
 	public int insertIntoFriends(String id, String following) {
 		PreparedStatement update = null;
 		

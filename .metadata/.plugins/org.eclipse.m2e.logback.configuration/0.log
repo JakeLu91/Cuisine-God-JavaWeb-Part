@@ -675,3 +675,63 @@
 2016-01-20 17:10:28,795 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
 2016-01-20 17:10:28,796 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-01-20 17:10:28,797 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-20 22:52:40,802 [Worker-157] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 22:52:40,868 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-20 22:52:40,869 [Worker-157] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 22:52:40,906 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-20 23:45:04,107 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:45:04,172 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-20 23:45:04,174 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:45:04,182 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-20 23:45:23,526 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:45:23,553 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-20 23:45:23,558 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:45:23,558 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-20 23:47:11,157 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:47:11,167 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-20 23:47:11,169 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:47:11,169 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-20 23:47:28,006 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:47:28,035 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-20 23:47:28,037 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-20 23:47:28,038 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 00:13:31,144 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:13:31,188 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 00:13:31,190 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:13:31,208 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 00:14:57,185 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:14:57,215 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 00:14:57,216 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:14:57,217 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 00:38:26,578 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:38:26,716 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 00:38:26,719 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:38:26,749 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 00:40:45,448 [Worker-200] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:40:45,449 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 00:40:45,451 [Worker-200] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 00:40:45,452 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 01:00:20,335 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:00:20,371 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 01:00:20,373 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:00:20,387 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 01:18:22,325 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:18:22,382 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 01:18:22,388 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:18:22,452 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 01:18:35,867 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:18:35,868 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 01:18:35,870 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:18:35,871 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 01:34:06,300 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:34:06,346 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 01:34:06,348 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:34:06,348 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 01:35:06,177 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:35:06,177 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 01:35:06,179 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 01:35:06,180 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources
+2016-01-21 02:00:49,392 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 02:00:49,440 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/main/resources
+2016-01-21 02:00:49,442 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-21 02:00:49,484 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jakeLu/Documents/Git/Cuisine God/Cuisine-God-JavaWeb-Part/Cuisine-God-BackEnd/src/test/resources

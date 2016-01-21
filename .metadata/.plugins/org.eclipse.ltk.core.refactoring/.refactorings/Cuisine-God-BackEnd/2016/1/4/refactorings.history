@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;status.Friend_Operation&apos; to &apos;Friends_Operation&apos;&#x0A;- Original project: &apos;Cuisine-God-BackEnd&apos;&#x0A;- Original element: &apos;status.Friend_Operation&apos;&#x0A;- Renamed element: &apos;status.Friends_Operation&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Friend_Operation&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;status{Friend_Operation.java[Friend_Operation" matchStrategy="1" name="Friends_Operation" qualified="false" references="true" similarDeclarations="false" stamp="1453362322857" textual="false" version="1.0"/>
+</session>
