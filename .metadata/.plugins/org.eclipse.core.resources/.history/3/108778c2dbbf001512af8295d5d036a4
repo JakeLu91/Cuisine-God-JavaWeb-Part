@@ -26,7 +26,7 @@ public class DAO {
 			update.setDouble(4, timeToCook);
 			update.setString(5, pictureId);
 			update.setInt(6, selfOpinion);
-			update.setString(7, recipeId);//could be a 0-length string if doesnt have one
+			update.setString(7, recipeId);
 			update.setString(8, timeStamp);
 			update.setString(9, userId);
 			update.executeUpdate();

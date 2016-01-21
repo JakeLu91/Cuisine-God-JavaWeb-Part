@@ -13,40 +13,6 @@ public class DAO {
 	
 	
 	
-	public int insertIntoPost(String id, String name, String ingredients, double timeToCook, String pictureId, int selfOpinion, String recipeId, String timeStamp, String userId) {
-		PreparedStatement update = null;
-		
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection(url, user, pin);
-			update = connection.prepareStatement("insert into post(id, name, ingredients, timeToCook, pictureId, selfOpinion, recipeId, timestamp, userId) values(?, ?, ?, ?, ?, ?, ?, ?, ?)");
-			update.setString(1, id);
-			update.setString(2, name);
-			update.setString(3, ingredients);
-			update.setDouble(4, timeToCook);
-			update.setString(5, pictureId);
-			update.setInt(6, selfOpinion);
-			update.setString(7, recipeId);//could be a 0-length string if doesnt have one
-			update.setString(8, timeStamp);
-			update.setString(9, userId);
-			update.executeUpdate();
-		} catch (ClassNotFoundException | SQLException e) {
-			
-			e.printStackTrace();
-			return 500;
-		} finally {
-			if (connection != null) {
-				try {
-					connection.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-		
-		return 200;
-	}
-	
 	
 	public int insertIntoImage(String id, String path, String userID) {
 		PreparedStatement update = null;

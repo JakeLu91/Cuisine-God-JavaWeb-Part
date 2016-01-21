@@ -71,7 +71,7 @@ public class Image_Operation {
 		String id = IDGenerator.createAnID(22);
 		dao.insertIntoImage(id, filePath, userID);
 		
-		returnString = "" + id;
+		
 		return Response.ok(returnString).build();
 	}
 	
